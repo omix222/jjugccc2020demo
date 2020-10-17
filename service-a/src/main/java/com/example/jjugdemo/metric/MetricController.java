@@ -13,14 +13,12 @@ import javax.ws.rs.Path;
 import java.util.Random;
 
 @Path("/metric")
-@ApplicationScoped //Required for @Gauge
+@ApplicationScoped
 public class MetricController {
 
     @Inject
     @Metric(name = "endpoint_counter")
-
     private Counter counter;
-
     @Path("timed")
     @Timed(name = "timed-request")
     @GET
@@ -33,11 +31,8 @@ public class MetricController {
             // Demo
             e.printStackTrace();
         }
-
         return "Request is used in statistics, check with the Metrics call.";
     }
-
-
     @Path("increment")
     @GET
     public long doIncrement() {

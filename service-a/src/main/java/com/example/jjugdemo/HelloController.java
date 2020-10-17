@@ -1,5 +1,6 @@
 package com.example.jjugdemo;
 
+
 import javax.inject.Singleton;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

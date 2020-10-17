@@ -1,0 +1,5 @@
+com/example/jjugdemo/Book.class
+com/example/jjugdemo/client/ServiceController.class
+com/example/jjugdemo/JjugdemoRestApplication.class
+com/example/jjugdemo/JsonController.class
+com/example/jjugdemo/secure/ProtectedController.class

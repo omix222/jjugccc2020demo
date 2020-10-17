@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jjugdemo-service-a:war">
+    <output-path>$PROJECT_DIR$/service-a/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jjugdemo-service-a</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jjugdemo.war">
+      <element id="artifact" artifact-name="jjugdemo-service-a:war exploded" />
+    </root>
+  </artifact>
+</component>
